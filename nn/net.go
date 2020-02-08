@@ -1,7 +1,7 @@
 package nn
 
 import (
-	"Machine-learning/maths"
+	"go-machine-learning/maths"
 
 	"gonum.org/v1/gonum/mat"
 )

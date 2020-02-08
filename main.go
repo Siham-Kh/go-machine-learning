@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Machine-learning/nn"
+	"go-machine-learning/nn"
 	"fmt"
 	"log"
 	"time"
@@ -25,7 +25,7 @@ func main() {
 	distribution := true // true = normal, false = uniform
 	pval := false        // activate the validation set (default is 0.1)
 
-	network := nn.BuildNetworkModel("../cdf-01/cdf-10000.csv", inputFields, targetFields, learningRate,
+	network := nn.BuildNetworkModel("../data/cdf-01/cdf-10000.csv", inputFields, targetFields, learningRate,
 		numLayers, epochs, numNeuronsPerLayer, activationFunction,
 		distribution, Scale, pval)
 

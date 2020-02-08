@@ -1,7 +1,7 @@
 package nn
 
 import (
-	"Machine-learning/maths"
+	"go-machine-learning/maths"
 	"encoding/csv"
 	"log"
 	"math/rand"
