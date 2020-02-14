@@ -1,10 +1,10 @@
-# Machine-learning
+# Machine-learning: Deep Learning Neural Network (DNN)
 
-This is a Go implementation of a Feed forward/backpropagation neural network. It is currently supporting:
+This is a Go implementation of DNN neural network. It is currently supporting:
 
 - Multiple layers with several neurons each
 - Activation functions: sigmoid, Relu
-- Optimizer: GD, SGD
+- Optimizer: Gradient Descent (GD), Stochastic Gradient Descent (SGD), Mini-Batch Gradient Descent (MGD)
 - Classification modes: multi-label, binary
 - Bias node
 
